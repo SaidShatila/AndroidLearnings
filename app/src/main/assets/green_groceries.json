@@ -1,0 +1,43 @@
+{
+  "media": [
+    {
+      "type": "album",
+      "albumName": "After Hours",
+      "artistName": "The Weeknd",
+      "numberOfSongs": 17,
+      "rating": 4.5
+    },
+    {
+      "type": "song",
+      "songName": "Try Me",
+      "artistName": "The Weeknd",
+      "rating": 4.5
+    },
+    {
+      "type": "album",
+      "albumName": "Hollywood's Bleeding",
+      "artistName": "Post Malone",
+      "numberOfSongs": 14,
+      "rating": 4
+    },
+    {
+      "type": "song",
+      "songName": "Die for me",
+      "artistName": "Post Malone",
+      "rating": 4
+    },
+    {
+      "type": "album",
+      "albumName": "Heartless",
+      "artistName": "Kanye West",
+      "numberOfSongs": 12,
+      "rating": 5
+    },
+    {
+      "type": "song",
+      "songName": "Smack that",
+      "artistName": "Akon",
+      "rating": 4.5
+    }
+  ]
+}
