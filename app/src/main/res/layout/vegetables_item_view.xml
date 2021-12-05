@@ -15,16 +15,19 @@
         android:orientation="vertical">
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{viewModel.vegetable.title}" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{viewModel.weightString}" />
 
         <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/color"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@{viewModel.vegetable.color}" />
