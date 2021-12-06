@@ -4,7 +4,7 @@ import android.learnings.Fruit
 import android.learnings.Vegetable
 
 object DemoHelper {
-    fun getVegetablesList(): List<Any> = listOf(
+    fun getVegetablesList(): MutableList<Vegetable> = mutableListOf(
         Vegetable(
             title = "Apple",
             weight = 0.2F,
@@ -17,7 +17,6 @@ object DemoHelper {
             title = "Guava",
             weight = 0.3F,
             color = "green"
-        ),
-        Fruit(title = "meshmosh")
+        )
     )
 }

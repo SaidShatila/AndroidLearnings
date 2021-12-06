@@ -6,11 +6,11 @@ import android.learnings.vegtables.data.DemoHelper
 import me.tatarka.bindingcollectionadapter2.itembindings.OnItemBindClass
 
 
-class VegetablesViewModel {
+class VegetablesViewModel() {
     val vegetables = DemoHelper.getVegetablesList().mapNotNull {
         when (it) {
             is Vegetable -> VegetableViewModel(it)
-            is Fruit -> FruitViewModel(it)
+//            is Fruit -> FruitViewModel(it)
             else -> null
         }
     }

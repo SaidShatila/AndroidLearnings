@@ -2,6 +2,7 @@ package android.learnings.vegtables
 
 import android.learnings.Vegetable
 import android.learnings.databinding.VegetablesItemViewBinding
+import android.learnings.databinding.VegetablesItemViewBindingBinding
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
@@ -12,7 +13,7 @@ class VegetablesListAdapter(private val onClick: () -> Unit) :
     ListAdapter<Vegetable, VegetablesListAdapter.VegetablesViewHolder>(VegetablesListDiff()) {
 
     class VegetablesViewHolder(
-        private val binding: VegetablesItemViewBinding,
+        private val binding: VegetablesItemViewBindingBinding,
         val onClick: () -> Unit
     ) :
         RecyclerView.ViewHolder(binding.root) {
@@ -33,7 +34,7 @@ class VegetablesListAdapter(private val onClick: () -> Unit) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VegetablesViewHolder {
         val binding =
-            VegetablesItemViewBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+            VegetablesItemViewBindingBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return VegetablesViewHolder(binding, onClick)
     }
 

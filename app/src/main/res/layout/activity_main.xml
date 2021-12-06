@@ -16,10 +16,12 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
+            android:id="@+id/rv"
             android:layout_height="wrap_content"
-            app:itemBinding="@{viewModel.itemBinding}"
-            app:items="@{viewModel.vegetables}"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+           <!-- app:itemBinding="@{viewModel.itemBinding}"
+            app:items="@{viewModel.vegetables}"-->
+
     </FrameLayout>
 
 </layout>
